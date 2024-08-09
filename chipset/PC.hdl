@@ -16,3 +16,7 @@ CHIP PC {
     Mux16(a = w1, b = false, sel = reset, out = cout);
     Register(in = cout, load = true, out = out, out = feedback);
 }
+
+
+ 
+ 
